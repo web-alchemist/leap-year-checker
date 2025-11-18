@@ -4,7 +4,8 @@ export default {
 	kit: {
 		adapter: adapter(),
 		paths: {
-			base: '/leap-year-checker'
+			base: process.env.NODE_ENV === 'production' ? '/leap-year-checker' : ''
 		}
-	}
+	},
+	trailingSlash: 'always'
 };
