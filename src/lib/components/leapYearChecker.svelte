@@ -1,5 +1,5 @@
 <script>
-	import { leapYear } from '$lib/leapYear';
+	import { leapYear } from '$lib/utils/leapYear';
 
 	let year = '';
 	let result = null;

@@ -1,7 +1,6 @@
 <script>
-  import LeapYearChecker from '$lib/leapYearChecker.svelte';
-  import '../app.css';
-
+	import LeapYearChecker from '$lib/components/leapYearChecker.svelte';
+	import '../app.css';
 </script>
 
 <LeapYearChecker />
